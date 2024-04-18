@@ -3,84 +3,84 @@
     {
       "id": 1,
       "name": "Pizza Mussarella",
-      "image": "./images/product-1.jpg",
+      "image": "images/product-1.jpg",
       "rating": 5,
       "price": 50
     },
     {
       "id": 2,
       "name": "Pizza Calabresa com Queijo",
-      "image": "./images/product-2.jpg",
+      "image": "images/product-2.jpg",
       "rating": 5,
       "price": 50
     },
     {
       "id": 3,
       "name": "Pizza Queijo com Bacon",
-      "image": "./images/product-3.jpg",
+      "image": "images/product-3.jpg",
       "rating": 5,
       "price": 55
     },
     {
       "id": 4,
       "name": "Pizza Frango com Catupiry",
-      "image": "./images/product-4.jpg",
+      "image": "images/product-4.jpg",
       "rating": 5,
       "price": 65
     },
     {
       "id": 5,
       "name": "Pizza Brigadeiro",
-      "image": "./images/product-5.jpg",
+      "image": "images/product-5.jpg",
       "rating": 5,
       "price": 60
     },
     {
       "id": 6,
       "name": "Pizza Prestigio",
-      "image": "./images/product-6.jpg",
+      "image": "images/product-6.jpg",
       "rating": 5,
       "price": 60
     },
     {
       "id": 7,
       "name": "Pizza Banana com Canela",
-      "image": "./images/product-7.jpg",
+      "image": "images/product-7.jpg",
       "rating": 5,
       "price": 65
     },
     {
       "id": 8,
       "name": "Morango com Chocolate",
-      "image": "./images/product-8.jpg",
+      "image": "images/product-8.jpg",
       "rating": 5,
       "price": 55
     },
     {
       "id": 9,
       "name": "Fritas com Cheddar e Bacon",
-      "image": "./images/product-9.jpg",
+      "image": "images/product-9.jpg",
       "rating": 5,
       "price": 25
     },
     {
       "id": 10,
       "name": "Cebola Empanada",
-      "image": "./images/product-10.jpg",
+      "image": "images/product-10.jpg",
       "rating": 5,
       "price": 20
     },
     {
       "id": 11,
       "name": "Frango Frito",
-      "image": "./images/product-11.jpg",
+      "image": "images/product-11.jpg",
       "rating": 5,
       "price": 17
     },
     {
       "id": 12,
       "name": "Coxinha De Carne Seca",
-      "image": "./images/product-12.jpg",
+      "image": "images/product-12.jpg",
       "rating": 5,
       "price": 20
     }

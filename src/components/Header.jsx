@@ -34,7 +34,7 @@ export default function Header() {
         </div>
 
         <div className="right-side">
-          <img src="../../images/pizza-header.jpg" alt="Pizza Home" />
+          <img src="images/pizza-header.jpg" alt="Pizza Home" />
         </div>
       </div>
     </header>
