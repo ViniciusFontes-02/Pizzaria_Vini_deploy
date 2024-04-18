@@ -1,0 +1,146 @@
+.nav {
+  background-color: #252525;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 8px #ebebeb60;
+  z-index: 1;
+}
+
+.nav .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin-inline: auto;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo span {
+  color: red;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+ul li a {
+  color: white;
+}
+
+nav ul li:hover {
+  transform: translateY(-3px);
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.navs-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navs-icon-container svg {
+  height: 1.5rem;
+  color: #dddd;
+}
+
+.navs-icon-container .cart {
+  position: relative;
+}
+
+.navs-icon-container .cart .products-count {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+  bottom: -8px;
+  left: -8px;
+  border-radius: 50%;
+  color: white;
+  padding: 0.7rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-bottom: 1px solid var(--dark-color);
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.search-input-container input {
+  border: none;
+  outline: none;
+  padding: 3px;
+  border-radius: 8px;
+  margin-right: 3px;
+}
+
+.search-input-container svg {
+  height: 1rem;
+  color: #dddd;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media (max-width: 920px) {
+  .nav h1 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background-color: #252525;
+    width: 100%;
+    padding-bottom: 1rem;
+    display: none;
+  }
+
+  .inner-content nav.show {
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 0.8rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 580px) {
+  .search-input-container {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.main-content .andress,
+.main-content .phone {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.map-marker {
+  margin-top: -30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
